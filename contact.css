@@ -1,0 +1,142 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* this is the image and about me */
+.body1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title1 {
+    background-color: bisque;
+    font-size: 4.5rem;
+}
+.body1 img{
+    width: 43vw;
+    margin: 4%;
+    display: flex;
+}
+.myName {
+    width: 47%;
+}
+.body1 h1 {
+    color: red;
+    font-size: 2.2rem;
+    margin-left: 25%;
+}   
+.body1 h2 {
+    color: blue;   
+}
+.title1 nav {
+    font-size: 1rem;
+    display: flex;
+    justify-content: ;
+    width: 35%;
+    padding: 1%;
+}   
+.title1 nav a {
+    padding: 1%;
+    border: 1.5px solid grey;
+    text-decoration: none;
+    background-color: white;  
+}
+.title1 nav a:hover {
+    background-color: yellow;
+    transition: 0.5s ease-in-out;
+}
+.body1 h1 a{
+    font-size: 1.3rem;
+    margin-left: 25%;
+    text-decoration: none;
+    padding: 1%;
+}
+.body1 h1 a:hover {
+    background-color: yellow;
+    transition: 0.5s ease-in-out;
+}
+/* this ends my title and about me*/
+
+/*this is my bottom images before footer*/
+.body2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.body2 img{
+    height: 20vh;
+    width: 20vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1%;
+}
+.body2 h1 {
+    color:green;
+    display: flex;
+}
+/* this ends my bottom images*/
+
+footer {
+    display: flex;
+    padding: 4%;
+    justify-content:right;
+    flex-direction: column;
+    background-color: darkseagreen;
+    align-items: center;
+}
+footer a {
+    text-decoration: none;
+    padding: 1%;
+    border: 1px solid black;
+    background-color: white;
+}
+footer a:hover {
+    background-color: yellow;
+    transition: 0.5s ease-in-out;
+}
